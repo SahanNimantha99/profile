@@ -17,12 +17,14 @@ img:hover {
 body {
     background-color: #93B1A6;
     text-align: center; /* Center-align content horizontally */
-    font-size: 20PX;
+    font-size: 20px;
+
 }
 
 table {
     text-align: center;
     margin: 0 auto; /* Center-align tables horizontally */
+  
 }
 
 hr {
@@ -38,6 +40,7 @@ h1 {
     color: #183D3D;
     margin-top: 40x; /* Add margin to create space between h1 and HR */
     font-size: 50px;
+    font-weight: bold;
 
 
 
@@ -47,11 +50,16 @@ h2 {
     color: #183D3D;
     margin-top: 40px; /* Add margin to create space between h2 and HR */
     font-size: 40px;
+    font-weight: bold;
+
+
 }
 
 p {
     color: #040D12;
     font-size: 20px;
+
+
 }
 
 .lan {
