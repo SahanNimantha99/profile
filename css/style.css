@@ -10,15 +10,32 @@ img:hover {
 }
 
 .link1:hover {
-    color: white;
+    color: #06724b;
     cursor: pointer;
 }
 
 body {
-    background-color: #93B1A6;
+    background-color: white;
     text-align: center; /* Center-align content horizontally */
     font-size: 20px;
+    margin: 0;
 
+}
+
+div{
+    background-color: #93B1A6;
+    height: 300px;
+    width: 100%;
+
+}
+
+#name{
+    margin: 0;
+
+}
+
+#do{
+    margin: 0;
 }
 
 table {
@@ -37,7 +54,7 @@ hr {
 }
 
 h1 {
-    color: #183D3D;
+    color: #06724b;
     margin-top: 40x; /* Add margin to create space between h1 and HR */
     font-size: 50px;
     font-weight: bold;
@@ -47,7 +64,7 @@ h1 {
 }
 
 h2 {
-    color: #183D3D;
+    color: #06724b;
     margin-top: 40px; /* Add margin to create space between h2 and HR */
     font-size: 40px;
     font-weight: bold;
@@ -56,7 +73,7 @@ h2 {
 }
 
 p {
-    color: #040D12;
+    color: #1d6851;
     font-size: 20px;
 
 
@@ -101,7 +118,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #183D3D;
+    background-color: #06724b;
     color: white;
     border:#93B1A6;
     padding: 10px 30px;
