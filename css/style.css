@@ -1,3 +1,10 @@
+.top-container{
+    background-color: #93B1A6;
+    height: 710px;
+    text-align: center;
+    width: 100%;
+}
+
 img {
     height: 300px;
     display:block;/*block.inline,inline-block,none*/
@@ -5,15 +12,19 @@ img {
     margin: 0 auto; /* Center-align images horizontally */
 }
 
-img:hover {
-    transform: scale(1.2); /* Increase the image size on hover */
-    cursor: pointer; /* Change cursor to indicate interactivity */
+.circular--square {
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 50%; 
 }
+
 
 .last{
     width: 500px;
     display: inline-block;
-    padding: auto;
+    margin-top: 30px;
+    
 }
 
 .link1:hover {
@@ -21,33 +32,38 @@ img:hover {
     cursor: pointer;
 }
 
+body{
+    margin: 0;
+    text-align: center;
+}
+
 .middle-container {
     background-color: rgb(255, 255, 255);
     text-align: center; /* Center-align content horizontally */
     font-size: 20px;
     margin: 0;
-
 }
 
-.top-container{
-    background-color: #93B1A6;
-    height: 300px;
-    width: 100%;
-}
+
 
 .bottom-container{
     background-color: #93B1A6;
     height: 300px;
+    text-align: center;
     width: 100%;
 }
 
 #name{
-    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    font-family: "Charmonman" , cursive;
 
 }
 
 #do{
-    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    font-family:"Merriweather",serif;
 }
 
 
@@ -71,6 +87,8 @@ h1 {
     margin-top: 40x; /* Add margin to create space between h1 and HR */
     font-size: 50px;
     font-weight: bold;
+    font-family: "Charmonman" , cursive;
+
 
 
 
@@ -81,6 +99,7 @@ h2 {
     margin-top: 40px; /* Add margin to create space between h2 and HR */
     font-size: 40px;
     font-weight: bold;
+    font-family: "Charmonman" , cursive;
 
 
 }
@@ -88,6 +107,8 @@ h2 {
 p {
     color: #1d6851;
     font-size: 20px;
+    font-family:"Merriweather",serif;
+
 
 
 }
@@ -96,6 +117,16 @@ p {
     height: 100px;
     display: block;
     margin: 0 auto; /* Center-align images horizontally */
+}
+
+.lan1{
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    padding: 50px;
+    margin: 50px auto; /* Center-align images horizontally */
+    border-radius: 50%; 
+
 }
 
 .lan:hover{
