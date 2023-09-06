@@ -1,7 +1,7 @@
 img {
     height: 300px;
-    display: block;
-    position: relative;
+    display:block;/*block.inline,inline-block,none*/
+    position:relative; /*relative,fixed,absolute,static*/
     margin: 0 auto; /* Center-align images horizontally */
 }
 
