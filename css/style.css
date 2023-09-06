@@ -9,24 +9,35 @@ img:hover {
     cursor: pointer; /* Change cursor to indicate interactivity */
 }
 
+.last{
+    width: 500px;
+    display: inline-block;
+    padding: auto;
+}
+
 .link1:hover {
     color: #06724b;
     cursor: pointer;
 }
 
-body {
-    background-color: white;
+.middle-container {
+    background-color: rgb(255, 255, 255);
     text-align: center; /* Center-align content horizontally */
     font-size: 20px;
     margin: 0;
 
 }
 
-div{
+.top-container{
     background-color: #93B1A6;
     height: 300px;
     width: 100%;
+}
 
+.bottom-container{
+    background-color: #93B1A6;
+    height: 300px;
+    width: 100%;
 }
 
 #name{
@@ -37,6 +48,7 @@ div{
 #do{
     margin: 0;
 }
+
 
 table {
     text-align: center;
